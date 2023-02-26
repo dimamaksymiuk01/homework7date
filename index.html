@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <h1>JavaScript</h1>
+
+<div class="container">
+    <div class="block">
+        <p>Task1</p>
+        <span>Вивести на екран поточну дату у форматі - 08 листопада 2022 року</span>
+        <button id="btn">Result</button>
+        <span class="res" id="res"></span>
+        <script src="./script/task1.js" type="module"></script>
+    </div>
+    <div class="block">
+        <p>Task2</p>
+        <span>Вивести на екран кількість годин, які пройшли з початку відліку до поточної дати та часу</span>
+        <label for="party">Введіть дату та час з якої почнемо відлік:</label>
+        <input
+          id="inpDate"
+          type="datetime-local"
+          name="partydate"
+          value="2017-06-01T08:30" />
+        <button id="btn2">Result</button>
+        <span class="res1" id="res1"></span> 
+        <script src="./script/task2.js" type="module"></script>
+    </div>
+    <div class="block">
+        <p>Task3</p>
+        <span>Порахувати кількість днів до дня народження. Користувач вводить input дату народження, далі натискає кнопку і отримує кількість днів до дня народження на екрані</span>
+        <label for="party">Введіть дату народження:</label>
+        <input
+          id="inpDate2"
+          type="datetime-local"
+          name="partydate"
+          value="2001-06-12T12:30" />
+        <button id="btn3">Result</button>
+        <span class="res2" id="res2"></span>
+        <script src="./script/task3.js" type="module"></script>
+    </div>
+    <div class="block">
+        <p>Task4</p>
+        <span>Перевірити чи являється поточна дата вихідним днем, результат вивести на екран. Вважати вихідними суботу та неділю.</span>
+        <label for="party">Оберіть день тижня:</label>
+        <input
+          id="inpDate3"
+          type="datetime-local"
+          name="partydate"
+          value="2023-03-12T12:30" />
+        <button id="btn4">Result</button>
+        <span class="res3" id="res2"></span>
+        <script src="./script/task4.js" type="module"></script>
+    </div>
+</div>
+
+
+</body>
+</html>
